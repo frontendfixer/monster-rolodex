@@ -1,4 +1,4 @@
-import './search-box.style.css';
+import './search-box.style.scss';
 
 import { ChangeEventHandler } from 'react' ;
 
