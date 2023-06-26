@@ -8,14 +8,5 @@
   padding-block: 0.875rem;
   line-height: 1.5;
   transition: all 250ms ease;
-  border-radius: 50vw;
-  &::placeholder {
-    color: #0d5f58;
-    letter-spacing: 2px;
-  }
-  &:focus {
-    border: 2px solid #07978b;
-    background-color: #7ef8ee;
-    box-shadow: 0 0 5px 1px #7ef8ee, inset 0 0 5px 0 #07978b;
-  }
+  border-radius: 1rem;
 }
