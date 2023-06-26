@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 
 import { ChangeEvent, useEffect, useState } from 'react';
 
@@ -50,7 +50,7 @@ const App = () => {
       <h1 className="app-title">Monster Rolodex</h1>
 
       <div className="search-container">
-        Search Monsters:
+        <p>Search Monsters</p>
         <SearchBox
           className="monster-search-box"
           onChangeHandler={onSearchChange}

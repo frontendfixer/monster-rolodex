@@ -1,0 +1,35 @@
+.app-title {
+  font-family: "Bigelow Rules", cursive;
+  padding-block-end: 2.75rem;
+  font-size: clamp(3.5rem, 6.67vw, 5rem);
+  letter-spacing: 10px;
+  color: #0ccac4;
+  text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.6);
+}
+
+.search-container {
+  width: 100%;
+  color: #7df8f4;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.875rem;
+  margin-block-end: 2.875rem;
+}
+.monster-search-box {
+  width: min(100%, 25rem);
+  background-color: #5bafac;
+  color: #052b29;
+  &::placeholder {
+    color: #0d5f58;
+    letter-spacing: 2px;
+  }
+  &:focus {
+    border: 2px solid #07978b;
+    background-color: #7ef8ee;
+    box-shadow: 0 0 5px 1px #7ef8ee, inset 0 0 5px 0 #07978b;
+  }
+}

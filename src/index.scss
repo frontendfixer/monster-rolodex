@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "PT Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(
+    to left,
+    rgba(7, 27, 82, 1) 0%,
+    rgba(0, 128, 128, 1) 100%
+  );
+  text-align: center;
+}
+
+.App {
+  width: min(90vw, 70rem);
+  margin-inline: auto;
+  min-height: 100vh;
+  padding-block: 2.5rem;
+}
