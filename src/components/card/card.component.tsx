@@ -1,4 +1,4 @@
-import './card.style.css';
+import './card.style.scss';
 
 import { Monster } from '../../App';
 
